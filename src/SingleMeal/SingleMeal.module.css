@@ -1,0 +1,128 @@
+.meal {
+  width: 100%;
+  padding: 10vh auto;
+  background: rgb(255, 249, 219);
+  color: #000;
+}
+
+.meal h1, .bold {
+  color:rgb(63, 28, 3);
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+
+}
+
+.meal h3 {
+  text-align: center;
+  color: #BE4D00;
+}
+
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.img {
+  width: 30%;
+  min-width: 250px;
+}
+
+.img img {
+  width: 100%;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basicInfo {
+  width: 60%;
+  height: 40vh;
+  overflow-y: scroll;
+}
+
+.suggestion {
+  width: 100%;
+  background: #fff;
+}
+
+.suggestion h3 {
+  padding-top: 5vh;
+  color:rgb(63, 28, 3);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.randomMeals {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10vh 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+}
+
+.ingredients {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ingredients h3 {
+  text-align: left;
+  color: #BE4D00;
+}
+
+.ingredients ul, .tags ul {
+  list-style-type: none;
+}
+
+.tags ul {
+  display: flex;
+  padding-left: 25%;
+}
+
+.tags li {
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: 600;
+  color: #BE4D00;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrap {
+    width: 98%;
+  }
+
+  .tags, .main {
+    flex-direction: column;
+  }
+
+  .basicInfo {
+    width: 90%;
+  }
+
+  .tags ul {
+    padding-left: 0;
+  }
+
+  .ingredients {
+    justify-content: center;
+  }
+
+  .meal h1 {
+    text-align: center;
+  }
+}

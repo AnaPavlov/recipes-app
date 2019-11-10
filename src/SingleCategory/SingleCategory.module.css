@@ -1,0 +1,66 @@
+.singleCategory {
+    width: 100%;
+}
+
+.singleCategory section {
+    width: 80%;
+    margin: 10vh auto;
+}
+
+.recommendation {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    height: 100%;
+    align-self: flex-end;
+}
+
+.search input {
+    border-radius: 5px;
+    height: 33px;
+    width: 250px;
+    border-style: none;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+}
+
+.search input::placeholder {
+    padding-left: 1px;
+}
+
+.search input:focus {
+    outline: 0;
+    border: 1px solid rgb(53, 167, 212);
+    box-shadow: 0 0 2px rgb(24, 24, 219);
+}
+
+.allMeals {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10vh auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .recommendation {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .search {
+        align-self: center;
+        margin-top: 15px;
+    }
+
+    .singleCategory {
+        text-align: center;
+    }
+}

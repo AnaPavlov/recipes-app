@@ -1,0 +1,55 @@
+.contact {
+    width: 100%;
+    margin: 15vh auto;
+    text-align: center;
+}
+
+.wrap form {
+    width: 50%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.wrap input, .wrap textarea {
+    width: 60%;
+    min-width: 280px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 7px;
+    height: 40px;
+    border-style: none;
+    border: 1px solid #ccc;
+}
+
+.wrap input::placeholder, .wrap textarea::placeholder {
+    padding-left: 5%;
+    font-family: 'Roboto';
+}
+
+.wrap textarea {
+    height: 30vh;
+}
+
+.wrap textarea::placeholder {
+    padding-top: 10px;
+}
+
+.wrap button {
+    width: 180px;
+    height: 40px;
+    background: rgb(255, 165, 0);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.wrap button:hover {
+    transform: translateY(-5%);
+    opacity: .8;;
+}

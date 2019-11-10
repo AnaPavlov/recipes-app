@@ -1,0 +1,26 @@
+.meal {
+    width: 20%;
+    min-width: 230px;
+    border: 1.5px solid #FDCF1A;
+    box-shadow: 2px 0px 33px -16px rgba(63,28,3,1);    border-radius: 5px;
+    padding: 8px;
+    margin: 1%;
+    /* margin-bottom: 10px; */
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.meal:hover {
+    transform: translateY(-3%);
+    box-shadow: 0 8px 10px -6px #777;
+    opacity: 0.8;
+}
+
+.meal img {
+    width: 100%;
+}
+
+.meal h3 {
+    text-align: center;
+    color: rgb(63, 28, 3);
+}
