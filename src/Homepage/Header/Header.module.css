@@ -79,9 +79,22 @@
         align-items: center;
     }
 
+    .info {
+        width: 90%;
+        margin: 0 auto;
+    }
+
     .info div {
         margin-bottom: 7vh;
         min-width: 280px;
+    }
+
+    .info h1, .info p {
+        text-align: center;
+    }
+
+    .info button {
+        margin: 0 auto;
     }
 
     .info h1 {

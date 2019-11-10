@@ -77,7 +77,6 @@
 
 .ingredients {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .ingredients h3 {
@@ -118,11 +117,4 @@
     padding-left: 0;
   }
 
-  .ingredients {
-    justify-content: center;
-  }
-
-  .meal h1 {
-    text-align: center;
-  }
 }
