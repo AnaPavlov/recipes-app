@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/recipes-app/static/css/main.15a5a968.chunk.css",
+    "main.js": "/recipes-app/static/js/main.67e84754.chunk.js",
+    "main.js.map": "/recipes-app/static/js/main.67e84754.chunk.js.map",
+    "runtime-main.js": "/recipes-app/static/js/runtime-main.f4e82d55.js",
+    "runtime-main.js.map": "/recipes-app/static/js/runtime-main.f4e82d55.js.map",
+    "static/js/2.05c9f88f.chunk.js": "/recipes-app/static/js/2.05c9f88f.chunk.js",
+    "static/js/2.05c9f88f.chunk.js.map": "/recipes-app/static/js/2.05c9f88f.chunk.js.map",
+    "index.html": "/recipes-app/index.html",
+    "precache-manifest.4e4fefaf80a5480d2eefd372bc5961cc.js": "/recipes-app/precache-manifest.4e4fefaf80a5480d2eefd372bc5961cc.js",
+    "service-worker.js": "/recipes-app/service-worker.js",
+    "static/css/main.15a5a968.chunk.css.map": "/recipes-app/static/css/main.15a5a968.chunk.css.map",
+    "static/media/about.jpg": "/recipes-app/static/media/about.2c22d30b.jpg",
+    "static/media/header.png": "/recipes-app/static/media/header.7c1fd99f.png",
+    "static/media/insta.png": "/recipes-app/static/media/insta.7c582676.png",
+    "static/media/login-icon.png": "/recipes-app/static/media/login-icon.8a4053ac.png",
+    "static/media/logo.png": "/recipes-app/static/media/logo.45290b3d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4e82d55.js",
+    "static/js/2.05c9f88f.chunk.js",
+    "static/css/main.15a5a968.chunk.css",
+    "static/js/main.67e84754.chunk.js"
+  ]
+}
