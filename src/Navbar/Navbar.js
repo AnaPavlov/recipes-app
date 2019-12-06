@@ -31,7 +31,7 @@ class Navbar extends Component {
     this.setState({
       searchInp: e.target.value
     });
-    this.props.history.replace('/search/' + e.target.value);
+    this.props.history.replace('/recipes-app/search/' + e.target.value);
   };
 
   showLogin = () => {
@@ -52,7 +52,7 @@ class Navbar extends Component {
     });
   }
 
-  handleChange= e => {
+  handleChange = e => {
     this.setState({
       [e.target.name]: e.target.value
     })
@@ -72,9 +72,11 @@ class Navbar extends Component {
     localStorage.removeItem("user");
     this.setState({
       isLogged: false,
-      showLogout: false
+      showLogout: false,
+      email: '',
+      password: '',
     });
-    this.props.history.push('/');
+    this.props.history.push('/recipes-app');
   }
 
   render(props) {
@@ -92,7 +94,7 @@ class Navbar extends Component {
           <img src={logOutIcon} alt="" />
           {showLogout}
         </div>
-        <NavLink activeClassName={styles.active} to="/mymeals">
+        <NavLink activeClassName={styles.active} to="/recipes-app/mymeals">
           My meals
         </NavLink>
       </>
@@ -103,7 +105,7 @@ class Navbar extends Component {
     );
 
     let navLinks =
-      this.props.location.pathname === '/' ? (
+      this.props.location.pathname === '/recipes-app' ? (
         <>
           <a href="#about">
             About us
@@ -114,7 +116,7 @@ class Navbar extends Component {
           </a>
         </>
       ) : (
-        <NavLink activeClassName={styles.active} exact to="/">
+        <NavLink activeClassName={styles.active} exact to="/recipes-app">
           Home
         </NavLink>
       );

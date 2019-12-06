@@ -77,7 +77,7 @@ class SingleMeal extends Component {
   }
 
   handleMeal = id => {
-    this.props.history.push('/meal/' + id);
+    this.props.history.push('/recipes-app/meal/' + id);
     
   };
 

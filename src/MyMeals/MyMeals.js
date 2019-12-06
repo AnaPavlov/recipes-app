@@ -20,12 +20,12 @@ class MyMeals extends Component {
   }
 
   handleMeal = id => {
-    this.props.history.push('/meal/' + id);
+    this.props.history.push('/recipes-app/meal/' + id);
   };
 
   render(props) {
     if (localStorage.getItem("user") === null) {
-      this.props.history.push('/');
+      this.props.history.push('/recipes-app');
     }
     let allMeals;
     if (this.state.meals) {
