@@ -19,11 +19,11 @@ class App extends Component {
         <div className={styles.app}>
           <Navbar /> 
           <Switch>
-          <Route path="/" exact component={Homepage} /> 
-            <Route path="/search/:name" exact component={SearchPage} />
-            <Route path="/category/:name" component={SingleCategory} />
-            <Route path="/meal/:id" component={SingleMeal} />
-            <Route path="/mymeals/" component={MyMeals} />
+          <Route path="/recipes-app" exact component={Homepage} /> 
+            <Route path="/recipes-app/search/:name" exact component={SearchPage} />
+            <Route path="/recipes-app/category/:name" component={SingleCategory} />
+            <Route path="/recipes-app/meal/:id" component={SingleMeal} />
+            <Route path="/recipes-app/mymeals/" component={MyMeals} />
           </Switch>
           <Footer />
         </div>

@@ -39,7 +39,7 @@ class SingleCategory extends Component {
   }
 
   handleMeal = id => {
-    this.props.history.push('/meal/' + id);
+    this.props.history.push('/recipes-app/meal/' + id);
     this.setState({
       filteredMeals: null
     });
@@ -48,7 +48,7 @@ class SingleCategory extends Component {
   filterResults(searchInp) {
     const allMeals = [...this.state.meals];
     let filteredMeals = allMeals.filter(meal => {
-      return meal.strMeal.toLowerCase().search(searchInp) !== -1;
+      return meal.strMeal.toLowerCase().search(searchInp.toLowerCase()) !== -1;
     });
     this.setState({
       filteredMeals: filteredMeals

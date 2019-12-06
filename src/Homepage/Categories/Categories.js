@@ -18,7 +18,7 @@ class Categories extends Component {
     }
 
     handleCategory = (name) => {
-        this.props.history.push("/category/" + name)
+        this.props.history.push("/recipes-app/category/" + name)
     }
 
     render() {
