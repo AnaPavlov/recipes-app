@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import axios from 'axios';
-// import SingleMeal from '../SingleMeal/SingleMeal';
 import styles from './SingleCategory.module.css';
 import MealCard from '../MealCard/MealCard';
 

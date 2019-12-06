@@ -104,8 +104,10 @@ class Navbar extends Component {
       </div>
     );
 
+    console.log(this.props.location.pathname)
+
     let navLinks =
-      this.props.location.pathname === '/recipes-app' ? (
+      this.props.location.pathname === '/recipes-app/' ? (
         <>
           <a href="#about">
             About us
